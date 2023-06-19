@@ -2,16 +2,18 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #DCDCDC;
 }
 ul { list-style: none; padding-left: 5px; }
 a { color:blue; text-decoration: none;}
 .bar {
-    background-color: #f9f9fb;
-    padding:15px;
-    border-top: solid 1px #cdcdcd;
-    border-bottom: solid 1px #cdcdcd;
+    background-color: #DCDCDC;
+    padding:15px;   
+    border-top:  1px solid #cdcdcd;
+    border-bottom: 1px #cdcdcd;
 }
 .content {
+    background-color: #DCDCDC;
     max-width: 1440px;
     margin: auto;
     grid-gap: 3rem;
@@ -19,17 +21,14 @@ a { color:blue; text-decoration: none;}
     gap: 3rem;
     grid-template-areas: "sidebar main anchors";
     grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0;
+    padding-right: 0;
 }
-.footer {
-    min-height: 100px;
-    border-top: solid 1px #cdcdcd;
-    text-align: center;
-}
+
 .anchors {
     border-left: solid 1px #cdcdcd;
     padding-left: 15px;
+    background-color: #DCDCDC;
 }
 aside {
     border-right: solid 1px #cdcdcd;
@@ -61,4 +60,18 @@ nav {
   .menu li a:hover {
     color: red;
   }
-  
+.sidebar{
+    background-color: #DCDCDC;
+    border-right: solid 1px #cdcdcd;
+    padding-right: 15px;
+    background-color: #DCDCDC;
+}
+footer{
+    background-color: #DCDCDC;
+    min-height: 100px;
+    border-top: 1px solid #cdcdcd;
+    text-align: center;
+}
+.logo{
+    background-color: #f9f9fb;
+}
