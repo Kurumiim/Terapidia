@@ -55,5 +55,9 @@ footer{
     text-align: center;
 }
 .logo{
-    background-color: #f9f9fb;
+    background-color: #f2f2f2;
+}
+.imgLogo{
+    border-radius: 50%;
+    margin: 15px;
 }
